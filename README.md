@@ -96,10 +96,14 @@ Available [here](https://huggingface.co/spaces/n8thangreen/cea-model-builder).
   ]
 }
 ```
+## Validating in R
+
+The repository includes an R function `cea_validate_json()` in the `R/` folder to validate that the JSON object is correct for a CEA-Lite JSON model.
 
 ## Parsing in R
 
 The repository includes an R function `parse_cea_model()` in the `R/` folder for parsing CEA-Lite JSON model files into R objects.
+This would be a step before using it as input to the particular R cost-effectiveness model.
 
 ### Requirements
 
@@ -152,4 +156,4 @@ print(parsed_model$states)
 print(parsed_model$model_logic$transition_matrices)
 ```
 
-See `scripts/example.R` for a complete working example.
+See `scripts/example-parse.R` for a complete working example.
