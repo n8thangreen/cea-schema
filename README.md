@@ -1,4 +1,4 @@
-# A Declarative Grammar for Health Economic Models
+# A Declrative Grammar for Health Economic Models
 
 ![Work In Progress](https://img.shields.io/badge/Status-Work%20In%20Progress-red)
 > This package is currently a prototype. Contributions and integration with wider HTA standards are welcome.
